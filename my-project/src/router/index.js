@@ -4,6 +4,9 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import ProductDetails from '../views/ProductDetails.vue'
 
+// style sheets
+import 'bootstrap/dist/css/bootstrap.css';
+
 Vue.use(VueRouter)
 
 const routes = [
