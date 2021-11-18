@@ -5,7 +5,7 @@
     <div class="row mx-auto d-flex">
       <div class="card col-sm-4">
         <!-- You can refer to the image in the assets folder this way -->
-        <!-- <img class="card-img-top" src="../assets/img/OutdoorBonsai/OutdoorBonsai_1.jpg" /> -->
+        <!-- <img class="card-img-top" src="/img/OutdoorBonsai/OutdoorBonsai_1.jpg" /> -->
         <!-- Or use the image on the api like this -->
         <img class="card-img-top" src="https://tbhpwebdevapi.azurewebsites.net/img/OutdoorBonsai/OutdoorBonsai_1.jpg" />
         <div class="card-body">
@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="card col-sm-4">
-        <img class="card-img-top" src="../assets/img/OutdoorBonsai/OutdoorBonsai_2.jpg" />
+        <img class="card-img-top" src="/img/OutdoorBonsai/OutdoorBonsai_2.jpg" />
         <div class="card-body">
           <h5 class="card-title">Large Chinese Juniper Itagawa</h5>
           <p class="card-text">£1495.00</p>
