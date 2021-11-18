@@ -2,7 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
-import ProductDetails from '../views/ProductDetails.vue'
+
+// @ is an alias to /src. Can also just do ../views
+import ProductList from '@/views/ProductList.vue'
 
 // style sheets
 import 'bootstrap/dist/css/bootstrap.css';
@@ -16,14 +18,14 @@ const routes = [
     component: Home
   },
   {
-    path: '/test',
+    path: '/about',
     name: 'About',
     component: About
   },
   {
-    path: '/productDetails',
-    component: ProductDetails
-  }
+    path: '/products',
+    component: ProductList
+  },
 ]
 
 const router = new VueRouter({
